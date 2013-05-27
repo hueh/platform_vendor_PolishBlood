@@ -1,5 +1,5 @@
-# Inherit AOSP device configuration for LWW
-$(call inherit-product-if-exists, device/semc/coconut/full_coconut.mk)
+# Inherit AOSP device configuration for coconut
+$(call inherit-product, device/semc/coconut/full_coconut.mk)
 
 # Inherit common device configuration for PolishBlood Project 
 $(call inherit-product, vendor/PolishBlood/common_PolishBlood.mk)
