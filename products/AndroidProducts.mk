@@ -4,4 +4,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/mango.mk \
     $(LOCAL_DIR)/smultron.mk \
     $(LOCAL_DIR)/satsuma.mk \
-    $(LOCAL_DIR)/urushi.mk
+    $(LOCAL_DIR)/urushi.mk \
+    $(LOCAL_DIR)/anzu.mk

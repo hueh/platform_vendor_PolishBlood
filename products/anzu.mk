@@ -1,0 +1,23 @@
+# Inherit AOSP device configuration for anzu
+$(call inherit-product-if-exists, device/semc/anzu/full_anzu.mk)
+
+# Inherit common device configuration for PolishBlood Project 
+$(call inherit-product, vendor/PolishBlood/common_PolishBlood.mk)
+
+# Add all AOSP ringtones(disable for more space on /system)
+$(call inherit-product, frameworks/base/data/sounds/AllAudio.mk)
+
+# Setup device specific product configuration.
+PRODUCT_NAME := PolishBlood_anzu
+PRODUCT_BRAND := SEMC
+PRODUCT_DEVICE := anzu
+PRODUCT_MODEL := Xperia Arc
+PRODUCT_MANUFACTURER := SEMC
+
+#skip asserts for now
+TARGET_OTA_ASSERT_SKIP := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=LT18i BUILD_FINGERPRINT="SEMC/LT18i_1254-2184/LT18i:4.0.4/4.1.B.0.431/UL5_3w:user/release-keys" PRIVATE_BUILD_DESC="LT18i-user 4.0.4 4.1.B.0.431 UL5_3w test-keys"
+
+PRODUCT_PACKAGES += \
+    Mms \
