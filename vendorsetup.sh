@@ -5,3 +5,4 @@ add_lunch_combo PolishBlood_smultron-userdebug
 add_lunch_combo PolishBlood_satsuma-userdebug
 add_lunch_combo PolishBlood_urushi-userdebug
 add_lunch_combo PolishBlood_anzu-userdebug
+add_lunch_combo PolishBlood_iyokan-userdebug
