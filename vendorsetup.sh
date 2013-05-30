@@ -2,3 +2,4 @@ add_lunch_combo PolishBlood_haida-userdebug
 add_lunch_combo PolishBlood_coconut-userdebug
 add_lunch_combo PolishBlood_mango-userdebug
 add_lunch_combo PolishBlood_smultron-userdebug
+add_lunch_combo PolishBlood_satsuma-userdebug
