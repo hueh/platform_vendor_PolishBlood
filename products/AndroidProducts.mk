@@ -6,4 +6,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/satsuma.mk \
     $(LOCAL_DIR)/urushi.mk \
     $(LOCAL_DIR)/anzu.mk \
-    $(LOCAL_DIR)/iyokan.mk
+    $(LOCAL_DIR)/iyokan.mk \
+    $(LOCAL_DIR)/hallon.mk
