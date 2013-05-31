@@ -1,7 +1,7 @@
 # user, just user
-USER := pcf-$(DATE)
+USER := pcf-2
 # Version
-PBP_VERSION_NUMBER := 1
+PBP_VERSION_NUMBER := 2
 
 # Unofficial packages that I used from trees outside AOSP
 PRODUCT_PACKAGES += \
