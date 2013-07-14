@@ -1,7 +1,7 @@
 # user, just user
-USER := pcf-5
+USER := pcf-6
 # Version
-PBP_VERSION_NUMBER := 5
+PBP_VERSION_NUMBER := 6
 
 # Unofficial packages that I used from trees outside AOSP
 PRODUCT_PACKAGES += \
